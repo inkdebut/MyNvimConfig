@@ -12,14 +12,20 @@ packer.startup(
 
             -- 安装其它插件
 	use {
+		--设置nerdtree
+		'kyazdani42/nvim-tree.lua',
+		requires = {
+			'kyazdani42/nvim-web-devicons', -- optional, for file icons
+		},
+		tag = 'nightly',
+
+		'kyazdani42/nvim-web-devicons', -- optional, for file icons
 		'Yggdroot/indentLine',
 		'vim-airline/vim-airline',
 		'vim-airline/vim-airline-themes',
 		--代码折叠插件,
-		'tmhedberg/SimpylFold',
- 		
+		
 		'majutsushi/tagbar',
- 		'scrooloose/nerdtree',
  		'skywind3000/vim-terminal-help',
  		'scrooloose/syntastic',
  		'neovim/nvim-lspconfig',
@@ -33,26 +39,22 @@ packer.startup(
  		'hrsh7th/cmp-path',
  		'hrsh7th/cmp-cmdline',
  		'hrsh7th/nvim-cmp',
-
 		'hrsh7th/cmp-vsnip',
-		 'hrsh7th/vim-vsnip',
-		--treesitter全家桶
-		'nvim-treesitter/nvim-treesitter',
-		'nvim-treesitter/nvim-treesitter-refactor',
-		'nvim-treesitter/nvim-treesitter-textobjects',
-		'nvim-treesitter/playground',
-		'romgrk/nvim-treesitter-context',
+		'hrsh7th/vim-vsnip',
+		'saadparwaiz1/cmp_luasnip',
+		'hrsh7th/cmp-nvim-lua',
+		'f3fora/cmp-spell',
 
 		--信标
 		'DanilaMihailov/beacon.nvim',
 
-		--代码调试插件
-		'puremourning/vimspector',
 		--Markdown文档预览
 		'iamcco/markdown-preview.nvim',
 		--自动加载图片到markdown文件的插件
 		'PLDaily/coc-picgo',
 
+		--主题插件
+		'shaunsingh/nord.nvim'
 	} 
         end,
         -- 使用浮动窗口

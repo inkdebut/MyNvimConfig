@@ -32,4 +32,6 @@ vim.o.encoding='UTF-8'
 
 --设置禁止备份文件
 vim.o.backup=false
-
+vim.o.swapfile=false;
+--设置主题
+vim.cmd[[colorscheme nord]]
