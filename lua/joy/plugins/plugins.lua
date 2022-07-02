@@ -26,7 +26,6 @@ packer.startup(
 		--代码折叠插件,
 		
 		'majutsushi/tagbar',
- 		'skywind3000/vim-terminal-help',
  		'scrooloose/syntastic',
  		'neovim/nvim-lspconfig',
  		'williamboman/nvim-lsp-installer',
@@ -45,6 +44,8 @@ packer.startup(
 		'hrsh7th/cmp-nvim-lua',
 		'f3fora/cmp-spell',
 
+		--snip
+		--
 		--信标
 		'DanilaMihailov/beacon.nvim',
 
@@ -54,7 +55,15 @@ packer.startup(
 		'PLDaily/coc-picgo',
 
 		--主题插件
-		'shaunsingh/nord.nvim'
+		'shaunsingh/nord.nvim',
+
+		--cmake
+		"Civitasv/cmake-tools.nvim",
+		'mfussenegger/nvim-dap',
+		'nvim-lua/plenary.nvim',
+
+		--treesitter
+		'nvim-treesitter/nvim-treesitter',
 	} 
         end,
         -- 使用浮动窗口
