@@ -7,7 +7,6 @@ require('joy.packer')
 
 require('joy.plugins.lsp.cmp')
 require('joy.plugins.lsp.lspconfig')
-require('joy.plugins.lsp.lspinstaller')
 
 require('joy.plugins.nvim-tree.nvim-tree')
 require('joy.plugins.airline.airline')
