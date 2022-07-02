@@ -28,7 +28,7 @@ packer.startup(
 		'majutsushi/tagbar',
  		'scrooloose/syntastic',
  		'neovim/nvim-lspconfig',
- 		'williamboman/nvim-lsp-installer',
+-- 		'williamboman/nvim-lsp-installer',
  		'jiangmiao/auto-pairs',
  		'github/copilot.vim',
  
@@ -44,6 +44,8 @@ packer.startup(
 		'hrsh7th/cmp-nvim-lua',
 		'f3fora/cmp-spell',
 
+		--coc
+		'neoclide/coc.nvim',
 		--snip
 		--
 		--信标
