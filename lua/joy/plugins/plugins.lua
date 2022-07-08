@@ -66,6 +66,9 @@ packer.startup(
 
 		--treesitter
 		'nvim-treesitter/nvim-treesitter',
+		
+		--telescope
+		'nvim-telescope/telescope.nvim',
 	} 
         end,
         -- 使用浮动窗口
