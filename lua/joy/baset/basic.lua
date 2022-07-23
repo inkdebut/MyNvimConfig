@@ -4,7 +4,7 @@
 
 
 vim.cmd[[
-	set nu
+	set nu!
 
 	set showmatch
 	set smartindent
