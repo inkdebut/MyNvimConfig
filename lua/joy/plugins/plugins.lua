@@ -27,25 +27,24 @@ packer.startup(
 		
 		'majutsushi/tagbar',
  		'scrooloose/syntastic',
- 		'neovim/nvim-lspconfig',
+ 		--'neovim/nvim-lspconfig',
 -- 		'williamboman/nvim-lsp-installer',
  		'jiangmiao/auto-pairs',
  		'github/copilot.vim',
  
 		 --这是nvim-cmp插件一个自动补全插件
- 		'hrsh7th/cmp-nvim-lsp',
- 		'hrsh7th/cmp-buffer',
- 		'hrsh7th/cmp-path',
- 		'hrsh7th/cmp-cmdline',
- 		'hrsh7th/nvim-cmp',
-		'hrsh7th/cmp-vsnip',
-		'hrsh7th/vim-vsnip',
-		'saadparwaiz1/cmp_luasnip',
-		'hrsh7th/cmp-nvim-lua',
-		'f3fora/cmp-spell',
+ 		--'hrsh7th/cmp-nvim-lsp',
+ 		--'hrsh7th/cmp-buffer',
+ 		--'hrsh7th/cmp-cmdline',
+ 		--'hrsh7th/nvim-cmp',
+		--'hrsh7th/cmp-vsnip',
+		--'hrsh7th/vim-vsnip',
+		--'saadparwaiz1/cmp_luasnip',
+		--'hrsh7th/cmp-nvim-lua',
+		--'f3fora/cmp-spell',
 
 		--coc
-		'neoclide/coc.nvim',
+		--'neoclide/coc.nvim',
 		--snip
 		--
 		--信标
